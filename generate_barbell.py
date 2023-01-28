@@ -14,5 +14,5 @@ def generate_barbell_distribution(dataframe, columns, upsample_number):
         barbell = Barbell(min_value, max_value, std, upsample_number)
         barbell.run_simulation()
         barbell_data[column] = barbell.get_data()
-    dataframe[columns] = barbell_data[columns].reset_index(drop=True)
-    return dataframe
+    # dataframe[columns] = barbell_data[columns].reset_index(drop=True)
+    return barbell_data.reset_index(drop=True)

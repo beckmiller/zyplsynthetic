@@ -1,0 +1,10 @@
+  
+  .color-navbar{
+    /* background-image: linear-gradient(19deg,#6512be 22%,#b800c0 50%,#ffc55f),linear-gradient(201deg,#7afcf6,#8068ff 50%,#f81984); */
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    /* background: linear-gradient(225deg, rgba(176,176,228,1) 13%, rgba(187,205,241,1) 44%, rgba(193,223,241,1) 59%, rgba(186,246,246,1) 91%); */
+    background-position: 0 0,0 0;
+    background-size: auto,auto;
+    background-repeat: repeat,repeat;
+    background-attachment: scroll,scroll;
+}
