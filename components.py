@@ -5,6 +5,7 @@ import dash_mantine_components as dmc
 from dash_iconify import DashIconify
 import uuid 
 
+
 def Create_DataTable(df, id=str(uuid.uuid4), table_name=None, whiteSpace="", page_size=10, filter_action="none", sort_action="none"):
     return card_style(html.Div([
         html.Center(html.Strong(table_name, style={"color":"black"})),
